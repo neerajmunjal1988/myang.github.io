@@ -1,0 +1,160 @@
+/* body css start */
+@font-face {
+    font-family: 'Swis721 LtCn BT';
+    src: url('../fonts/Swiss721BT-LightCondensed.eot');
+    src: url('../fonts/Swiss721BT-LightCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Swiss721BT-LightCondensed.woff2') format('woff2'),
+        url('../fonts/Swiss721BT-LightCondensed.woff') format('woff'),
+        url('../fonts/Swiss721BT-LightCondensed.ttf') format('truetype'),
+        url('../fonts/Swiss721BT-LightCondensed.svg#Swiss721BT-LightCondensed') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Swis721 Cn BT';
+    src: url('../fonts/Swiss721BT-RomanCondensed.eot');
+    src: url('../fonts/Swiss721BT-RomanCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Swiss721BT-RomanCondensed.woff2') format('woff2'),
+        url('../fonts/Swiss721BT-RomanCondensed.woff') format('woff'),
+        url('../fonts/Swiss721BT-RomanCondensed.ttf') format('truetype'),
+        url('../fonts/Swiss721BT-RomanCondensed.svg#Swiss721BT-RomanCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    text-decoration: none;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+/* body css end */
+/* banner css start */
+.main-con {
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+.main_banner img {
+    max-width: 100%;
+}
+.left:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: -webkit-linear-gradient(left, transparent 50%, rgba(50, 78, 116, 0.9) 50%);
+    background: -o-linear-gradient(left, transparent 50%, rgba(50, 78, 116, 0.9) 50%);
+    background: -moz-linear-gradient(left, transparent 50%, rgba(50, 78, 116, 0.9) 50%);
+    background: linear-gradient(to left, transparent 50%, rgba(50, 78, 116, 0.9) 50%);
+}
+.right:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: -webkit-linear-gradient(right, transparent 50%, rgba(231, 113, 45, 0.83) 50%);
+    background: -o-linear-gradient(right, transparent 50%, rgba(231, 113, 45, 0.83) 50%);
+    background: -moz-linear-gradient(right, transparent 50%, rgba(231, 113, 45, 0.83) 50%);
+    background: linear-gradient(to right, transparent 50%, rgba(231, 113, 45, 0.83) 50%);
+}
+.main_head {
+    padding-top: 30px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 100%;
+}   
+/* banner css end */
+
+/* header css start */
+.social_ {
+    float: right;
+}
+.social_ ul {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.social_ ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    text-align: center;
+    padding: 0px 5px;
+}
+.social_ ul li a i{
+    color: #fff;
+    font-size: 16px;
+}
+/* header css end */
+/* text css start */
+.one_ {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cenetr-img img {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+.cenetr-img h2 {
+    color: #fff;
+    font-family: 'Swis721 Cn BT';
+    line-height: 35px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 999999;
+    text-align: center;
+    font-size: 28px;
+}
+/* text css end */
+/* student and parents css start */
+.parent_ {
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.student_ a{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Swis721 LtCn BT';
+    border: 1px solid #fff;
+    padding: 10px 40px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+/* student and parents css end */
+/* footer css start */
+.content-footer.condensed{
+  width: 100%;
+  background-color: #EEEEEE;
+}
+.content-footer.condensed .cont_innr {
+  margin: auto;
+  padding: 40px 0;
+}
+.content-footer.condensed .cont_innr {
+  color: #888;
+  font-size: 14px;
+  margin: auto;
+  padding-bottom: 30px;
+  text-align: left;
+}
+/* footer css end */
+
